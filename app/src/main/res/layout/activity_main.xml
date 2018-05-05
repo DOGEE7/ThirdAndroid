@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    tools:context="cst.hqu.edu.cn.third.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment0"
+        android:name="cst.hqu.edu.cn.third.F0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="cst.hqu.edu.cn.third.F1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="cst.hqu.edu.cn.third.F2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="cst.hqu.edu.cn.third.F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="cst.hqu.edu.cn.third.F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="cst.hqu.edu.cn.third.F5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/bnleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CallbackHandler"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/bnright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ConfigurationTest"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/bnfinall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ProgressDialogTest"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
